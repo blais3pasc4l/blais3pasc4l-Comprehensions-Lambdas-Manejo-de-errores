@@ -121,7 +121,7 @@ class GameManager:
         """Loads the words from a text file."""
         base_dir = os.path.dirname(os.path.realpath(__file__))
         
-        with open(os.path.join(base_dir, 'data.txt'), 'r', encoding='UTF-8') as file:
+        with open(os.path.join(base_dir, './archivos/data.txt'), 'r', encoding='UTF-8') as file:
             for line in file:
                 normalized_word = line.strip().upper()
                 self.words.append(normalized_word)
