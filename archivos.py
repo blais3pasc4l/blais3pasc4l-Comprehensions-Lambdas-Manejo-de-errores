@@ -11,7 +11,7 @@ def write():
         for name in names:
             f.write(name)
             f.write('\n')
-
+    
 
 
 
