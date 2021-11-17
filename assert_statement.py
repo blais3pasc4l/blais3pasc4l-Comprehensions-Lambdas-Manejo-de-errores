@@ -6,8 +6,8 @@ def divisor(num):
     return divisors
 
 def run():
-        num = input('Ingrese un numero: ')
-        assert num.isnumeric(), 'debes ingresar un numero'
+        num = int(input('Ingrese un numero: '))
+        assert num > 0, 'debes ingresar un numero positivo'
         print(divisor(int(num)))
         print('Termino mi programa')
 if __name__ == '__main__':
