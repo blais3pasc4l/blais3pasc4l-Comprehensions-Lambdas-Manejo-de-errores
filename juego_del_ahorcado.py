@@ -1,5 +1,5 @@
 """Hangman CLI game
-Author: Jose Noriega
+Author: Juan Calderon
 """
 
 import os
